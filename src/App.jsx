@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Login from './components/Login'
-import FormDetails from './components/FormDetails'
+import Login from './Components/Login'
+import FormDetails from './Components/FormDetails'
 import SubmissionPage from './Components/SubmissionPage'
 import './App.css'
 

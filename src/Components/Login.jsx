@@ -54,23 +54,7 @@ function LoginPage(props) {
 
   return (
     <div className="custom-div-main">
-      {/* <Box
-      sx={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100vh',
-      }}
-    > */}
-      {/* <Box
-        sx={{
-          backgroundColor: 'rgba(255, 255, 255, 0.8)',
-          padding: '20px',
-          borderRadius: '10px',
-          border: '1px solid #ccc',
-          width: '500px',
-        }}
-      > */}
+      
       <Typography variant="h4" mb={4} className="custom-typography">
         Login
       </Typography>
@@ -109,8 +93,6 @@ function LoginPage(props) {
           </Button>
         </div>
       </div>
-      {/* </Box> */}
-      {/* </Box> */}
     </div>
   )
 }

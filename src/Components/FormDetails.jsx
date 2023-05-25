@@ -15,8 +15,6 @@ function FormDetails() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault()
-
-    // Perform form validation
     const formErrors = {}
 
     if (!name) {
@@ -41,9 +39,8 @@ function FormDetails() {
 
     setErrors(formErrors)
 
-    // If there are no errors, proceed with form submission
     if (Object.keys(formErrors).length === 0) {
-      // Perform your submit logic here
+    
       navigate(`/submission-page`)
     }
   }

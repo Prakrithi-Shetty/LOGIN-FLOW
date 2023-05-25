@@ -1,5 +1,3 @@
-
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -36,35 +34,34 @@
   color: #888;
 }
 
-.App{
+.App {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background-color: white;
   border-radius: 8px;
 }
 
-
-.custom-div{
+.custom-div {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.custom-div-main{
+.custom-div-main {
   border: 1px solid lightgrey;
 }
 
-.custom-div-button{
+.custom-div-button {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
 
-.custom-typography{
+.custom-typography {
   color: black;
   display: flex;
   justify-content: center;
@@ -72,67 +69,63 @@
   font-size: 30px !important;
 }
 
-.custom-div-formdetails{
+.custom-div-formdetails {
   margin: 30px !important;
 }
 
-.formdetails-typography{
+.formdetails-typography {
   color: grey !important;
   font-size: 12px !important;
   margin-right: 10px;
 }
 
-.custom-upload{
+.custom-upload {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin:30px
+  margin: 30px;
 }
 
-.custom-button{
+.custom-button {
   width: 250px;
 }
 
-.custom-height{
+.custom-height {
   height: 25px;
 }
 
-.custom-icon{
+.custom-icon {
   font-size: 15px !important;
 }
 
-.custom-upload-file{
+.custom-upload-file {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
 
-.custom-div-formdetails-submit{
+.custom-div-formdetails-submit {
   width: 350px;
 }
 
-
-.custom-typography-submission{
-
+.custom-typography-submission {
   color: darkgrey;
   display: flex;
   justify-content: center;
   margin-top: 30px !important;
   font-size: 15px !important;
-
 }
 
-.custom-div-submission{
+.custom-div-submission {
   margin: 60px !important;
 }
 
-
 .box-shadow:hover {
   color: grey;
-  background-color: #FFF3ED !important;
+  background-color: #fff3ed !important;
 }
 
 .custom-div-formdetails-submit:hover {
   color: grey;
-  background-color: #FFF3ED !important;
+  background-color: #fff3ed !important;
 }
